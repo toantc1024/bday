@@ -35,7 +35,7 @@ const Loader = ({ setShowLoader }) => {
               onClick={() => setIsStart(true)}
               className="btn bg-sky-500 text-white text-4xl py-4 h-auto font-bold hover:bg-white rounded-2xl hover:text-sky-400 shadow-xl"
             >
-              What's that?
+              {"What's that?"}
             </button>
           </div>
 

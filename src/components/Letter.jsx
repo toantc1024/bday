@@ -21,7 +21,7 @@ const Letter = () => {
             {[...new Array(100)].map((_, i) => (
               <span
                 key={`emoji-${i}`}
-                className={`flex items-center justify-center text-2xl md:text-6xl w-[80px] h-[80px] md:w-[100px] md:h-[100px] bg-white rounded-xl shadow-2xl transition-all ease-in-out duration-500 `}
+                className={` border-gray-200 flex items-center justify-center text-2xl md:text-6xl w-[80px] h-[80px] md:w-[100px] md:h-[100px] bg-white rounded-xl shadow-2xl transition-all ease-in-out duration-500 `}
                 style={{
                   opacity: i % 2 == 0 ? 0 : fx(i),
                   transform:

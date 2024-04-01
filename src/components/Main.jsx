@@ -8,6 +8,7 @@ import SectionWrapper from "./SectionWrapper";
 import Letter from "./Letter";
 import Card from "./Card";
 import { HiArrowDown } from "react-icons/hi";
+import ImageSlide from "./ImageSlide";
 
 const Main = () => {
   const [showLoader, setShowLoader] = React.useState(false);
@@ -29,7 +30,11 @@ const Main = () => {
         </div>
       </SectionWrapper>
       <SectionWrapper background="bg-sky-400" id="section-two">
-        <Card />
+        {/* Write little descriptions about this person */}
+
+        <div className="flex h-screen text-4xl md:text-8xl items-center justify-center">
+          <span className="text-white font-bold px-4">It's your birthday!</span>
+        </div>
       </SectionWrapper>
       <SectionWrapper
         background="bg-emerald-400"

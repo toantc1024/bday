@@ -1,4 +1,3 @@
-import { scrollIntoView } from "@/utils/scroller";
 import React from "react";
 
 const Navbar = () => {

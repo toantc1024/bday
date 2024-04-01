@@ -9,8 +9,6 @@ import Letter from "./Letter";
 import images from "@/components/ImageSlide/stocks";
 import Image from "next/image";
 
-import OCEAN from "@/components/ImageSlide/stocks/ocean.jpg";
-
 const Main = () => {
   const [isPlaying, setIsPlaying] = React.useState(false);
   useEffect(() => {

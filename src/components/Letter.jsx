@@ -9,15 +9,14 @@ const Letter = () => {
 
   return (
     <div
-      id="thank-you-section"
-      className={`w-full overflow-hidden h-screen relative flex items-center justify-center  border-t-[1px] border-[rgba(255,255,255,.2)]`}
+      className={`w-full overflow-hidden h-screen relative flex items-center justify-center `}
     >
       <Fragment>
         <span className="p-2 text-yellow-800 py-6 rounded-2xl z-[100] absolute text-2xl xl:text-9xl shadow-2xl font-extrabold bg-white ">
           Be <span className="underline decoration-yellow-500">opti</span>mistic
         </span>
         {
-          <div className="flex flex-wrap items-center shadow-xl justify-center gap-4 ">
+          <div className="flex flex-wrap items-center  justify-center gap-4 ">
             {[...new Array(100)].map((_, i) => (
               <span
                 key={`emoji-${i}`}

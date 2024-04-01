@@ -1,10 +1,11 @@
+import { scrollIntoView } from "@/utils/scroller";
 import React from "react";
 
 const Navbar = () => {
   return (
-    <div className="navbar fixed z-[999] top-0 bg-base-100">
+    <div className="navbar fixed z-[9999] top-0 bg-base-100">
       <div className="navbar-start">
-        <div className="dropdown">
+        {/* <div className="dropdown">
           <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -26,38 +27,35 @@ const Navbar = () => {
             className="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 font-bold   rounded-box w-52"
           >
             <li>
-              <a>One</a>
+              <a onClick={() => scrollIntoView("section-one")}>One</a>
             </li>
             <li>
-              <a>Two</a>
+              <a onClick={() => scrollIntoView("section-two")}>Two</a>
             </li>
 
             <li>
-              <a>And three</a>
+              <a onClick={() => scrollIntoView("section-three")}>And three</a>
             </li>
           </ul>
-        </div>
-        <a className="btn btn-ghost hover:bg-sky-400 hover:text-white text-xl border-[4px] rounded-xl border-gray-300 border-dashed">
-          user.tag
+        </div> */}
+        <a className="btn btn-ghost hover:bg-sky-400 hover:text-white text-sm md:text-xl border-[4px] rounded-xl border-gray-300 border-dashed">
+          khiem.dev birthday 🎂
         </a>
       </div>
-      <div className="navbar-center hidden lg:flex">
+      {/* <div className="navbar-center hidden lg:flex">
         <ul className="menu menu-horizontal px-1 font-bold">
-          <li>
+          <li onClick={() => scrollIntoView("section-three")}>
             <a>One</a>
           </li>
           <li>
-            <a>Two</a>
+            <a onClick={() => scrollIntoView("section-three")}>Two</a>
           </li>
 
           <li>
-            <a>And three</a>
+            <a onClick={() => scrollIntoView("section-three")}>And three</a>
           </li>
         </ul>
-      </div>
-      <div className="navbar-end">
-        <a className="btn">:3</a>
-      </div>
+      </div> */}
     </div>
   );
 };

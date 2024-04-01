@@ -1,11 +1,7 @@
 import React from "react";
 
-const SectionWrapper = ({ children, background, id, custom }) => {
-  return (
-    <div className={`${background} h-screen ${custom}`} id={id}>
-      {children}
-    </div>
-  );
+const SectionWrapper = ({ children, background, pos, custom }) => {
+  return <div className={`${background} h-screen ${custom}`}>{children}</div>;
 };
 
 export default SectionWrapper;

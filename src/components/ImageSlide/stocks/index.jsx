@@ -1,47 +1,14 @@
-// Import images by pattern
-import IMG_1 from "./1.jpg";
-import IMG_2 from "./2.jpg";
-import IMG_3 from "./3.jpg";
-import IMG_4 from "./4.jpg";
+import IMG_24 from "./2024.jpg";
+import IMG_23 from "./2023.jpg";
+import IMG_19 from "./2019.jpg";
+import IMG_18 from "./2018.jpg";
 
 export default [
-  { src: IMG_1, alt: "MAGE" },
+  { src: IMG_24, alt: "2024" },
+  { src: IMG_19, alt: "2019" },
+  { src: IMG_18, alt: "2018" },
   {
-    src: IMG_2,
-    alt: "MAGE",
-  },
-  {
-    src: IMG_3,
-    alt: "MAGE",
-  },
-  {
-    src: IMG_4,
-    alt: "MAGE",
-  },
-  { src: IMG_1, alt: "MAGE" },
-  {
-    src: IMG_2,
-    alt: "MAGE",
-  },
-  {
-    src: IMG_3,
-    alt: "MAGE",
-  },
-  {
-    src: IMG_4,
-    alt: "MAGE",
-  },
-  { src: IMG_1, alt: "MAGE" },
-  {
-    src: IMG_2,
-    alt: "MAGE",
-  },
-  {
-    src: IMG_3,
-    alt: "MAGE",
-  },
-  {
-    src: IMG_4,
-    alt: "MAGE",
+    src: IMG_23,
+    alt: "2023",
   },
 ];

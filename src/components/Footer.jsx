@@ -5,7 +5,9 @@ const Footer = () => {
     <footer className="footer flex items-center justify-center p-10 bg-white text-gray-500">
       <aside>
         <p className="text-sm">Made with love and coffee by toantc 🐱‍👓</p>
-        <span className="text-center text-sm w-full">Date: 2/4/2024</span>
+        <span className="italic font-bold text-center text-sm w-full">
+          Note: Em xin lỗi a vì hông nhắn xin hình anhh 🎈
+        </span>
       </aside>
     </footer>
   );
